@@ -1,16 +1,13 @@
 module.exports = {
-  'myplugin is working': function (test) {
+  'link to \'Styled list numbers\' is on the homepage': function (test) {
     test.open('http://0.0.0.0:9000/')
-      .query('#myplugin-target')
-        .assert.attr('class', 'is-selected')
-      .end()
+      .assert.attr('#t-styled-list-numbers', 'href')
+        .to.contain('/styled-list-numbers.html', 'Link to \'Styled list numbers\' page found')
       .done();
   },
-  'goblin is working': function (test) {
-    test.open('http://0.0.0.0:9000/')
-      .query('#goblin-said')
-      .assert.text().is('Dakka')
-      .end()
+  '\'Styled list numbers\' page displays component': function (test) {
+    test.open('http://0.0.0.0:9000/styled-list-numbers.html')
+      .assert.exists('.styled-list-numbers')
       .done();
   }
 };

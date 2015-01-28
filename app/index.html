@@ -1,38 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Grunt boilerplate</title>
+    <title>Inclusive Frontend</title>
     <link rel="stylesheet" href="styles/main.css"/>
 </head>
 <body>
-<h1>Grunt boilerplate</h1>
+<h1>Inclusive Frontend</h1>
 
-<h2>Javascript tests</h2>
-<ol>
-    <li>Display the property of a Goblin object: <span id="goblin-said"></span>.</li>
-    <li id="myplugin-target">Change the colour of this text from black to red - using myplugin.</li>
-</ol>
-
-
-<h2>Pages</h2>
 <ul>
-    <li><a href="/styled-list-numbers.html">Check the value of your pension pot</a></li>
+    <li><a href="/styled-list-numbers.html" id="t-styled-list-numbers">Styled list numbers</a></li>
 </ul>
-
-
-<script src="vendor/js/jquery.js"></script>
-<script src="js/myplugin.js"></script>
-<script src="js/goblin.js"></script>
-
-<script>
-    var goblin = new Goblin('Dakka');
-    document.getElementById('goblin-said').innerHTML = goblin.name;
-
-    $(function(){
-        console.log('run');
-        $('#myplugin-target').myplugin();
-    });
-</script>
 
 </body>
 </html>
