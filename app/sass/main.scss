@@ -1,0 +1,7 @@
+@import "lib/variables";
+@import "base/base";
+@import "components/styled-list-numbers";
+
+.is-selected {
+  color:$color-selected;
+}
