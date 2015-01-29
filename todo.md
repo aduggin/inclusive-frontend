@@ -16,12 +16,23 @@
 * Grid
 * icons
 * Images
-* Tables
-* Forms
+* Info Graphics
+
+## Tables
+* Simple
+* Complex
+
+## Forms
+* Currency field
+* percentage field
+
 
 ##Static Components
-* styled list numbers
+* ordered list - styled number
+* unordered list - coloured bullets
+* unordered list - icon bullets
 * breadcrumb
+
 * @todo - check Dough audit
 
 ##Interactive Components
@@ -29,6 +40,7 @@
 * tool tip
 * lightbox
 * Ajax preloader
+* Clear search box
 * Auto suggest
 * Form validation
 * @todo - check Dough audit
