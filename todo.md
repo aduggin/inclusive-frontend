@@ -22,11 +22,12 @@
 * Page Structure
 * Typography
 * Headings
-* Grids
+* Links
 * Colours
 * Icons
 * Images
 * Info Graphics
+* Grids
 
 ## Tables
 * Simple
@@ -35,37 +36,41 @@
 ## Forms
 * Currency field
 * percentage field
+* Form validation
+* Custom checkboxes and radio buttons
 * Slider
-
-## Accessibility techniques
-* ensuring 'skip to content' links works in all browsers
-* informing screen reader user that an item is selected/active
-* informing screen reader user of content updating on the page
-
+* Ratings
+* Auto suggest
+* Clear search box
 
 ##HTML/CSS Components
 * ordered list - styled number
 * unordered list - coloured bullets
 * unordered list - icon bullets
 * breadcrumb
+* pagination
 
 * @todo - check Dough audit
 
 ##JS Components
-* show/hide
-* tool tip
-* lightbox
+* Collapsible
+* tooltip
+* Dialog/Overlays
+* Charts
 * sticky content
+* menu button
 * Ajax preloader
-* Clear search box
-* Auto suggest
-* Pie Chart
-* Form validation
 * Sortable table
 * @todo - check Dough audit
 * @todo - check Designing With Progressive Enhancement
 * @todo - check Bootstrap
 * @todo - check Zurb Foundation
+
+## Accessibility techniques
+* ensuring 'skip to content' links works in all browsers
+* informing screen reader user that an item is selected/active
+* informing screen reader user of content updating on the page
+
 
 ## Recommended Reading
 ### Books
