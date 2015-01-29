@@ -11,10 +11,12 @@
 
 
 ## Base
+* Metadata
 * Page Structure
 * Typography
-* Grid
-* icons
+* Headings
+* Grids
+* Icons
 * Images
 * Info Graphics
 
@@ -25,9 +27,10 @@
 ## Forms
 * Currency field
 * percentage field
+* Slider
 
 
-##Static Components
+##HTML/CSS Components
 * ordered list - styled number
 * unordered list - coloured bullets
 * unordered list - icon bullets
@@ -35,14 +38,17 @@
 
 * @todo - check Dough audit
 
-##Interactive Components
+##JS Components
 * show/hide
 * tool tip
 * lightbox
+* sticky content
 * Ajax preloader
 * Clear search box
 * Auto suggest
+* Pie Chart
 * Form validation
+* Sortable table
 * @todo - check Dough audit
 * @todo - check Designing With Progressive Enhancement
 * @todo - check Bootstrap
