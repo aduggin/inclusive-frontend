@@ -4,6 +4,13 @@
 * Personas
 * Devices
 * Progressive Enhancement
+** Philosophy
+** Techniques
+*** Sass for < ie9
+*** CSS selectors
+*** @support
+*** cutting the mustard
+* Performance
 * Accessibility API
 * Polyfils
 * HTML element
@@ -16,6 +23,7 @@
 * Typography
 * Headings
 * Grids
+* Colours
 * Icons
 * Images
 * Info Graphics
@@ -55,7 +63,22 @@
 * @todo - check Zurb Foundation
 
 ## Recommended Reading
+### Books
 * [Designing With Progressive Enhancement: building the web that works for everyone](http://www.filamentgroup.com/dwpe/)
 * [Responsible Responsive Design](http://www.abookapart.com/products/responsible-responsive-design)
 * [A Web For Everyone: Designing Accessible User Experiences](http://rosenfeldmedia.com/books/a-web-for-everyonerepsono)
 * [Pro HTML5 Accessibility](http://www.apress.com/9781430241942)
+### Articles
+* [Angular momentum](https://adactio.com/journal/8245)
+
+## Online Resources
+* [Can I Use](http://caniuse.com/)
+* [Mozilla Developer Network](https://developer.mozilla.org/en-US/)
+* [WebPagetest](http://www.webpagetest.org/)
+* [BrowserStack](http://www.browserstack.com/)
+
+
+## Challenges
+* What to do about :last-child not working in IE8?
+* How to provide instructions for complex interactive components to assitive technology users
+* Flash of unstyled content - and how to display non-js layout if js is supported but fails to load
