@@ -37,6 +37,11 @@
 * percentage field
 * Slider
 
+## Accessibility techniques
+* ensuring 'skip to content' links works in all browsers
+* informing screen reader user that an item is selected/active
+* informing screen reader user of content updating on the page
+
 
 ##HTML/CSS Components
 * ordered list - styled number
