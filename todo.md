@@ -4,12 +4,12 @@
 * Personas
 * Devices
 * Progressive Enhancement
-** Philosophy
-** Techniques
-*** Sass for < ie9
-*** CSS selectors
-*** @support
-*** cutting the mustard
+ * Philosophy
+ * Techniques
+   * Sass for < ie9
+   * CSS selectors
+   * @support
+   * cutting the mustard
 * Performance
 * Accessibility API
 * Polyfils
@@ -22,7 +22,8 @@
 * Page Structure
 * Typography
 * Headings
-* Links
+* Links - including opening another window or overlay, linking to non-html
+* Links that look like buttons (gov.uk, bootstrapp, dough)
 * Colours
 * Icons
 * Images
@@ -49,11 +50,14 @@
 * unordered list - icon bullets
 * breadcrumb
 * pagination
+* Step navigation
+* Address
+
 
 * @todo - check Dough audit
 
 ##JS Components
-* Collapsible
+* Collapsible content / Disclosure (show/hide)
 * tooltip
 * Dialog/Overlays
 * Charts
@@ -74,21 +78,40 @@
 
 ## Recommended Reading
 ### Books
+* [A Web For Everyone: Designing Accessible User Experiences](http://rosenfeldmedia.com/books/a-web-for-everyonerepsono)
 * [Designing With Progressive Enhancement: building the web that works for everyone](http://www.filamentgroup.com/dwpe/)
 * [Responsible Responsive Design](http://www.abookapart.com/products/responsible-responsive-design)
-* [A Web For Everyone: Designing Accessible User Experiences](http://rosenfeldmedia.com/books/a-web-for-everyonerepsono)
 * [Pro HTML5 Accessibility](http://www.apress.com/9781430241942)
+* [Apps For All: Coding Accessible Web Applications](https://shop.smashingmagazine.com/apps-for-all-coding-accessible-web-applications.html)
+* [Adaptive Web Design: Crafting Rich Experiences with Progressive Enhancement](http://adaptivewebdesign.info/) - new version out late 2015
+
+
+
 ### Articles
 * [Angular momentum](https://adactio.com/journal/8245)
+
 
 ## Online Resources
 * [Can I Use](http://caniuse.com/)
 * [Mozilla Developer Network](https://developer.mozilla.org/en-US/)
 * [WebPagetest](http://www.webpagetest.org/)
 * [BrowserStack](http://www.browserstack.com/)
+* [The State of Web Type]http://stateofwebtype.com/()
+
+
+## Tools
+* http://leaverou.github.io/contrast-ratio/
 
 
 ## Challenges
 * What to do about :last-child not working in IE8?
 * How to provide instructions for complex interactive components to assitive technology users
 * Flash of unstyled content - and how to display non-js layout if js is supported but fails to load
+
+
+### Features
+* For each subject/topic have an overview summary, a quickish to read version and a in depth version - enables users to access the level of info they want.
+* provide comments to encourage discussion and feedback
+
+
+
