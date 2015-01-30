@@ -112,6 +112,3 @@
 ### Features
 * For each subject/topic have an overview summary, a quickish to read version and a in depth version - enables users to access the level of info they want.
 * provide comments to encourage discussion and feedback
-
-
-
